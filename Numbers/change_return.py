@@ -9,16 +9,17 @@ for the change.
 import sys
 from decimal import *
 
+coins = ['quarters', 'dimes', 'nickels', 'pennies']
+values = {'quarters' : 25, 'dimes' : 10, 'nickels' : 5, 'pennies' : 1}
+
 def main(cost, given):
 	change = given - cost
 	print("change: ${0}".format(format(change/100, '.2f')))
-	coins = ['quarters', 'dimes', 'nickels', 'pennies']
 	nums = {'quarters' : 0, 'dimes' : 0, 'nickels': 0, 'pennies' : 0}
-	values = {'quarters' : 25, 'dimes' : 10, 'nickels' : 5, 'pennies' : 1}
 	for coin in coins:
-		while(change >= values[coin]):
-			nums[coin] += 1
-			change -= values[coin]
+		if(change >= values[coin]):
+			nums[coin] += int(change / values[coin])
+			change = change % values[coin]
 	for coin in coins:
 		print("{0}: {1}".format(coin, nums[coin]))
 
