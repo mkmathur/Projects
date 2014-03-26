@@ -1,3 +1,5 @@
+import random
+
 def merge_sort(arr):
 	if(len(arr) <= 1):
 		return arr
@@ -26,3 +28,15 @@ def merge(a1, a2):
 		result.append(a1[p1])
 		p1 += 1
 	return result
+
+def quick_sort(arr):
+	if(len(arr) <= 1):
+		return arr
+	else:
+		i = random.randint(0, len(arr) - 1)
+		pivot = arr[i]
+		arr.remove(pivot)
+		small = [x for x in arr if x <= pivot] 
+		big = [x for x in arr if x > pivot] 
+		return quick_sort(small) + [pivot] + quick_sort(big)
+
