@@ -1,6 +1,8 @@
 Completed
 ========
 
+[**Sorting**](https://github.com/mkmathur/Projects/blob/master/Classic%20Algorithms/sort.py) - Implement two types of sorting algorithms: Merge sort and quick sort.
+
 [**Page Scraper**](https://github.com/mkmathur/Projects/blob/master/Web/scraper.py) -- Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
 
 [**Coin Flip Simulation**](https://github.com/mkmathur/Projects/blob/master/Numbers/coin_flip.py) - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
@@ -52,7 +54,7 @@ Classic Algorithms
 
 **Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
 
-**Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
+**Sorting** - Implement two types of sorting algorithms: Merge sort and quick sort.
 
 **Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
 
