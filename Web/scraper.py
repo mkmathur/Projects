@@ -5,9 +5,21 @@ Page Scraper - Create an application which connects to a site and pulls out all 
 import requests
 from bs4 import BeautifulSoup
 
-u = raw_input('Enter URL: ')
-r = requests.get(u)
-c = r.content
-soup = BeautifulSoup(c)
-links = soup.find_all("a")
-print(links)
+def print_list(a):
+	print "\n".join(a)
+	print "\n=============\n"
+
+url = raw_input('Enter URL: ')
+choice = input("What to scrape?\n1. Links\n2. Images\n")
+response = requests.get(url)
+content = response.content
+soup = BeautifulSoup(content)
+
+if choice == 1:
+	urls = [link['href'] for link in soup.select('a[href^="http://"]')]
+	print "URLs: \n"
+	print_list(urls)
+else:
+	images = [image['src'] for image in soup.find_all("img")]
+	print "Images: \n"
+	print_list(images)
