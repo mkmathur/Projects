@@ -1,6 +1,8 @@
 Completed
 ========
 
+[**Page Scraper**](https://github.com/mkmathur/Projects/blob/master/Web/scraper.py) -- Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
+
 [**Coin Flip Simulation**](https://github.com/mkmathur/Projects/blob/master/Numbers/coin_flip.py) - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
 
 [**Change Return Program**](https://github.com/mkmathur/Projects/blob/master/Numbers/change_return.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
@@ -153,8 +155,6 @@ Threading
 
 Web
 ---------
-
-**Page Scraper** - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
 
 **Web Browser with Tabs** - Create a small web browser that allows you to navigate the web and contains tabs which can be used to navigate to multiple web pages at once. For simplicity don’t worry about executing Javascript or other client side code.
 
