@@ -1,21 +1,14 @@
-Completed
-========
-
-[**Sorting**](https://github.com/mkmathur/Projects/blob/master/Classic%20Algorithms/sort.py) - Implement two types of sorting algorithms: Merge sort and quick sort.
-
-[**Page Scraper**](https://github.com/mkmathur/Projects/blob/master/Web/scraper.py) -- Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
-
-[**Coin Flip Simulation**](https://github.com/mkmathur/Projects/blob/master/Numbers/coin_flip.py) - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
-
-[**Change Return Program**](https://github.com/mkmathur/Projects/blob/master/Numbers/change_return.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
-
 Mega Project List
 ========
 
 Numbers
 ---------
 
-**Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+*[**Coin Flip Simulation**](https://github.com/mkmathur/Projects/blob/master/Numbers/coin_flip.py) - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
+
+[**Change Return Program**](https://github.com/mkmathur/Projects/blob/master/Numbers/change_return.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+
+*Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
 **Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
@@ -52,7 +45,9 @@ Numbers
 Classic Algorithms
 -----------------
 
-**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
+*[**Sorting**](https://github.com/mkmathur/Projects/blob/master/Classic%20Algorithms/sort.py) - Implement two types of sorting algorithms: Merge sort and quick sort.
+
+*Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
 
 **Sorting** - Implement two types of sorting algorithms: Merge sort and quick sort.
 
@@ -80,13 +75,13 @@ Data Structures
 Text
 ---------
 
-**Reverse a String** - Enter a string and the program will reverse it and print it out.
+[**Reverse a String**](https://github.com/mkmathur/Projects/blob/master/Text/text.py) - Enter a string and the program will reverse it and print it out.
 
-**Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
+*[**Check if Palindrome**](https://github.com/mkmathur/Projects/blob/master/Text/text.py) - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+
+*Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
 
 **Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
-
-**Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
 
 **Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 
@@ -158,7 +153,9 @@ Threading
 Web
 ---------
 
-**Web Browser with Tabs** - Create a small web browser that allows you to navigate the web and contains tabs which can be used to navigate to multiple web pages at once. For simplicity don’t worry about executing Javascript or other client side code.
+*[**Page Scraper**](https://github.com/mkmathur/Projects/blob/master/Web/scraper.py) -- Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
+
+*Web Browser with Tabs** - Create a small web browser that allows you to navigate the web and contains tabs which can be used to navigate to multiple web pages at once. For simplicity don’t worry about executing Javascript or other client side code.
 
 **Online White Board** - Create an application which allows you to draw pictures, write notes and use various colors to flesh out ideas for projects. *Optional: Add feature to invite friends to collaborate on a white board online.*
 
