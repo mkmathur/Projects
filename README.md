@@ -4,6 +4,8 @@ Mega Project List
 Numbers
 ---------
 
+[**Next Prime Number**](https://github.com/mkmathur/Projects/blob/master/Numbers/primes.py) - Have the program find prime numbers until the user chooses to stop asking for the next one.
+
 [**Coin Flip Simulation**](https://github.com/mkmathur/Projects/blob/master/Numbers/coin_flip.py) - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
 
 [**Change Return Program**](https://github.com/mkmathur/Projects/blob/master/Numbers/change_return.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
@@ -13,8 +15,6 @@ Numbers
 **Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
 **Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
-
-**Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
 **Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
@@ -45,13 +45,13 @@ Numbers
 Classic Algorithms
 -----------------
 
+[**Sieve of Eratosthenes**](https://github.com/mkmathur/Projects/blob/master/Classic%20Algorithms/sieve.py) - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
+
 [**Sorting**](https://github.com/mkmathur/Projects/blob/master/Classic%20Algorithms/sort.py) - Implement two types of sorting algorithms: Merge sort and quick sort.
 
 **Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
 
 **Closest pair problem** - The closest pair of points problem or closest pair problem is a problem of computational geometry: given *n* points in metric space, find a pair of points with the smallest distance between them.
-
-**Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
 
 Graph
