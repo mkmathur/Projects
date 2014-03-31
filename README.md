@@ -4,6 +4,8 @@ Mega Project List
 Numbers
 ---------
 
+[**Prime Factorization**](https://github.com/mkmathur/Projects/blob/master/Numbers/prime_factorize.py) - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+
 [**Next Prime Number**](https://github.com/mkmathur/Projects/blob/master/Numbers/primes.py) - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
 [**Coin Flip Simulation**](https://github.com/mkmathur/Projects/blob/master/Numbers/coin_flip.py) - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
@@ -13,8 +15,6 @@ Numbers
 **Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
 **Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
-
-**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
 **Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
